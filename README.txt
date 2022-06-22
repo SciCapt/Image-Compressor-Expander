@@ -28,7 +28,7 @@ Format of:	(Original Size -> Compressed Size -> Uncompressed Size), R = ...
     iv. 451x451 very sharp pic: (291 KB -> 80KB -> 261KB)                       R = 0.725
     v. 1439x749 monitor screenshot: (798 KB -> 205 KB -> 677KB)		        R = 0.743
     vi. 637x631 pic of a dog surrounded by bread: (1057 KB -> 199 KB -> 634 KB)	R = 0.812
-    vii. 728x405 orginally .jpg pic: (53 KB -> 107 KB -> 342 KB)            R = -1.019*
+    vii. 728x405 orginally .jpg pic: (53 KB -> 107 KB -> 342 KB)                R = -1.019*
     viii. 512x341 pixleated (originally a .jpg) pic (99 KB - > 99 KB - > 334 KB)R = 0*
     ix. 1444x904 monitor screenshot: (716 KB -> 188 KB -> 686 KB)		R = 0.737
     
@@ -37,7 +37,7 @@ Format of:	(Original Size -> Compressed Size -> Uncompressed Size), R = ...
     * These images were originally .jpg but I hardconverted them to .png by changing their name. As shown in 2. it is much better to be able to use the             original filetype:
 
 2. New results (with .png and .jpg as recognized filetypes)
-    i. 728x450 image retested: (53 KB -> 12 KB - > 31KB)			                R = 0.774 (better!)
-    ii. 512x341 pixleated image: (99 KB -> 14 KB -> 40 KB)			                R = 0.859**
+    i. 728x450 image retested: (53 KB -> 12 KB - > 31KB)			            R = 0.774 (better!)
+    ii. 512x341 pixleated image: (99 KB -> 14 KB -> 40 KB)			            R = 0.859**
 
     **I very much like this value, but addmitedly, the uncompressed image did not look very good due to the highly pixleated nature of the original                 image. It's still much better than the test in 1.viii. however!
