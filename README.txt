@@ -25,12 +25,12 @@ Format of:	(Original Size -> Compressed Size -> Uncompressed Size), R = ...
     i. 830x722 image: (494 KB -> 161 KB -> 508 KB)                              R = 0.674
     ii. Same as prev but very blurry: (224 KB -> 102 KB -> 277 KB)              R = 0.544
     iii. 60x60 color wheel: (4 KB -> 2 KB -> 5KB)                               R = 0.500
-    iv. 451x451 very sharp pic: (291 KB -> 80KB -> 261KB)                   R = 0.725
+    iv. 451x451 very sharp pic: (291 KB -> 80KB -> 261KB)                       R = 0.725
     v. 1439x749 monitor screenshot: (798 KB -> 205 KB -> 677KB)		            R = 0.743
-    vi. 637x631 pic of a dog surrounded by bread: (1057 KB -> 199 KB -> 634 KB)	    R = 0.812
-    vii. 728x405 orginally .jpg pic: (53 KB -> 107 KB -> 342 KB):			        R = -1.019*
-    viii. 512x341 pixleated (originally a .jpg) pic (99 KB - > 99 KB - > 334 KB):	R = 0*
-    ix. 1444x904 monitor screenshot: (716 KB -> 188 KB -> 686 KB):		            R = 0.737
+    vi. 637x631 pic of a dog surrounded by bread: (1057 KB -> 199 KB -> 634 KB)	R = 0.812
+    vii. 728x405 orginally .jpg pic: (53 KB -> 107 KB -> 342 KB)			    R = -1.019*
+    viii. 512x341 pixleated (originally a .jpg) pic (99 KB - > 99 KB - > 334 KB)R = 0*
+    ix. 1444x904 monitor screenshot: (716 KB -> 188 KB -> 686 KB)		        R = 0.737
     
     - The screenshots proved to be good limitations for the current code. The images are quite sharp (as computer monitor graphics are) so some smaller             text is slightly hard to read. Applying some anti aliasing to these images would probably be the best simple solution.
 
