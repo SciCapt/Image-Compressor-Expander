@@ -22,9 +22,9 @@ Format of:	(Original Size -> Compressed Size -> Uncompressed Size), R = ...
 & R is compression ratio of (1 - 'Compressed Size' / 'Original Size'), so 0 to 1, with 1 as best
 
 1. First Tests (only .png types recognized in code)
-    i. 830x722 image: (494 KB -> 161 KB -> 508 KB)				                    R = 0.674
-    ii. Same as prev but very blurry: (224 KB -> 102 KB -> 277 KB)		            R = 0.544
-    iii. 60x60 color wheel: (4 KB -> 2 KB -> 5KB)				                    R = 0.500
+    i. 830x722 image: (494 KB -> 161 KB -> 508 KB)                      R = 0.674
+    ii. Same as prev but very blurry: (224 KB -> 102 KB -> 277 KB)          R = 0.544
+    iii. 60x60 color wheel: (4 KB -> 2 KB -> 5KB)                       R = 0.500
     iv. 451x451 very sharp pic: (291 KB -> 80KB -> 261KB)			                R = 0.725
     v. 1439x749 monitor screenshot: (798 KB -> 205 KB -> 677KB)		                R = 0.743
     vi. 637x631 pic of a dog surrounded by bread: (1057 KB -> 199 KB -> 634 KB)	    R = 0.812
