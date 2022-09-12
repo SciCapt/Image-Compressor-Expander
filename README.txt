@@ -2,7 +2,7 @@ Quick and simple picture file compressor and decompressor (for .png and .jpg)
 
 USAGE:
 1.
-To use, throw and .png images into the same folder as the rest of the .py and .bat files and use "Compress Image.bat"
+To use, throw .jpg and/or .png images into the same folder as the rest of the .py and .bat files and use "Compress Image.bat"
 This will simply create an image with the same filename but with "_Compressed_" added to its name. The image is just a half-resolution picture of the original with one pixel representing the average of four from the original.
 
 (As that last step actually gets rid of a lot of data, it took a long time to find a decompressor that would actually work reasonably well)
